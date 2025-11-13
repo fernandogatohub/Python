@@ -1,6 +1,6 @@
 #Modules to install
-#import datetime as dt
-#from IPython.core.display import display
+import datetime as dt
+from IPython.core.display import display
 
 #Optional in case sound is needed
 #from IPython.display import Audio
@@ -72,4 +72,5 @@ def og(op_type='exec_time',df_list=None, df_rows=1,message=None,division=None,ho
         print('Excecution was completed but something went wrong when trying to show the output guide')
 
 if __name__ == "__main__":
+
     og()
